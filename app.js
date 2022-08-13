@@ -23,4 +23,4 @@ const counter = () =>
             filter--;
         }
     }
-const myInterVal = setInterval(counter,50);
+const myInterVal = setInterval(counter,30);
