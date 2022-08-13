@@ -15,7 +15,7 @@ body
     align-items: center;
 }
 .img{
-    background-image: url('Desktop.jpg');
+    background-image: url('Images/Desktop.jpg');
     background-position: center;
     background-size: cover;
     width:100vw;
@@ -35,6 +35,6 @@ h1{
 @media(max-width:40rem)
 {
     .img{
-        background-image: url('mobile.jpg');
+        background-image: url('Images/mobile.jpg');
     }
 }
