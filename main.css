@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&family=Ubuntu&display=swap');
+*
+{
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    width:100vw;
+    height:100vh;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    background-image: url('Desktop.jpg');
+    background-position: center;
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+    position:fixed;
+    bottom:0;
+    z-index: -1;
+    filter: blur(40px);
+}
+h1{
+    /* position:absolute; */
+    display:inline-block;
+    color: white;
+    font-size:3rem;
+    transition:0.1 linear;
+}
+@media(max-width:40rem)
+{
+    .img{
+        background-image: url('mobile.jpg');
+    }
+}
